@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- <link rel="stylesheet" href="resources/modal.css"> -->
+    <link rel="stylesheet" href="resources/main.css">
+    
+    <title>Synergy</title>
+  </head>
+
+
+  <body>
+    
+    <header id="inicio" class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-2">Tu App a Medida</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-primary fs-3 fw.bold">Synergy</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="#carouselExampleControls">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">Contacto</a>
+              </li>      
+
+            </ul>
+            <form class="d-flex needs-validation" action="" novalidate>              
+              <input type="email" class="form-control me-2" placeholder="Correo Electronico" aria-label="email" required>
+              
+              <div >
+                <button type="submit" class="btn btn-primary w-100 fs-5">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!-- 
+  =================================
+    Slider de Imagenes
+  ===============================
+-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000"> 
+      <img src="resources/img/Milma.jpg" class="d-block w-100" alt="slide1">
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="resources/img/-varios-dispositivos-de-conexión-a-internet.jpg" class="d-block w-100" alt="slide1">
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="resources/img/codigos.jpeg" class="d-block w-100" alt="slide1">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<button onclick="topFunction()" id="backtop" title="inicio" class="bg-primary  fs-5 ">Inicio</button>
+
+
+<!-- 
+  =================================
+    Introduccion
+  ===============================
+-->
+<section class="w-50 mx-auto text-center pt-5" id="intro">
+<h1 class="p-3 fs-2 border-top border-3"> Una agencia para todas tus necesidades de 
+  <span class="text-primary"> Software a Medida</span></h1>
+<p class="p-3 fs-4"><span class="text-primary">Synergy</span> es la agencia donde te ayudamos a simplificar tus procesos de negocio con la creacion de paginas Web, tiendas virtuales, app de escritorio y mobile</p>
+</section>
+
+<!-- 
+  =================================
+    servicios
+  ===============================
+-->
+
+<section class="container-fluid">
+  <div class="row w-75 mx-auto my-5 servicio-fila">
+    <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+      <img src="resources/img/programador.jpg" alt="desarrollo" width="180" height="160">
+      <div>
+        <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
+        <p class="px-4">Desarrollo de aplicaciones Web, E-Commerce, Mobile y Desktop</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+      <img src="resources/img/programador.jpg" alt="desarrollo" width="180" height="160">
+      <div>
+        <h3 class="fs-5 mt-4 px-4 pb-1">Concepto</h3>
+        <p class="px-4">Diseño, Conceptualización e Implementacion de productos digitales</p>
+      </div>
+    </div>
+  </div>
+  <div class="row w-75 mx-auto my-5 servicio-fila">
+    <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+      <img src="resources/img/programador.jpg" alt="desarrollo" width="180" height="160">
+      <div>
+        <h3 class="fs-5 mt-4 px-4 pb-1">Branding</h3>
+        <p class="px-4">Desarrollo del plan de comunicaciones para sus clientes</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+      <img src="resources/img/programador.jpg" alt="desarrollo" width="180" height="160">
+      <div>
+        <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
+        <p class="px-4">Analizamos la eficiencia y optimizamos los sitios web</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 
+  =================================
+    Nosotros
+  ===============================
+-->
+<section>
+  <div class="w-75 m-auto text-center" id="equipo">
+    <h1 class="mb-5 fs-2">Equipo pequeño con<span class="text-primary"> Grandes Resultados</span></h1>
+    <p class="fs-4">Siempre buscamos perfeccionar nuestros productos para brindar el mejor servicio. Si te interesa sumarte a nuestro equipo contactanos!</p>
+  </div>
+  <div class="mt-5 text-center ">
+    <img class="img-fluid" src="resources/img/out-0.png" alt="equipo">
+  </div>
+
+  <div id="local" class="border-top border-5 mt-5">
+    <div id="mapa" class="mapa">
+      <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3507.636105223001!2d-65.78271677672683!3d-28.46038401613235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1714441094668!5m2!1ses!2sar" width="90%" height="450" style="border:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+      <div class="wrapper">
+        <h2>Ubicado en Catamarca, Argentina</h2>
+        <h2 class="text-primary mb-4 fs-5" id="typewriter"></h2>
+        <!-- <p class="fs-5 text-body"> Tierra de la Virgen del Valle</p> -->
+        <section class="d-flex" id="numeros-local">
+
+          <div id="temperatura"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+========================FORM BACK=================
+-->
+<section id="seccion-contacto" class="border-bottom border-secondary border-2 ">
+  <div id="bg-contacto">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,128L40,144C80,160,160,192,240,192C320,192,400,160,480,154.7C560,149,640,171,720,165.3C800,160,880,128,960,144C1040,160,1120,224,1200,218.7C1280,213,1360,139,1400,101.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+  </div>
+
+  <div id="espaciador" class="container">
+    <p></p>
+  </div>
+
+  <!--
+========================FORMULARIO=================
+-->
+  <div class="container" id="contenedor-formulario">
+    <div id="titulo-formulario" class="text-center mb-2">
+      <div><img src="resources/img/soporte.png" alt="contacto" width="250px" class="img-fluid"></div>
+      <h2 class="fs-3">Contactanos</h2>
+      <p>Describe tu consulta y te respondemos en breve</p>
+    </div>
+    <form class="needs-validation" action="" novalidate >
+      <div class="mb-3">      
+        <input type="email" class="form-control" name="email" id="email" placeholder="nombre@email.com" required>
+        <div class="invalid-feedback">
+          Ingrese un correo valido.
+        </div>
+      </div>
+      <div class="mb-3">      
+        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
+        <div class="invalid-feedback">
+          Debe ingresar su nombre y apellido.
+        </div>
+      </div>
+      <div class="mb-3">
+        <input type="tel" class="form-control" name="telefono" id="tel" placeholder="telefono" required>
+        <div class="invalid-feedback">
+          Debe ingresar un telefono valido.
+        </div>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje" required></textarea>
+        <div class="invalid-feedback">
+          Debe ingresar su consulta.
+        </div>
+      </div>
+      
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary w-100 fs-5">Enviar</button>
+      </div>
+    </form>
+</div>
+
+</section>
+
+<!--
+========================footer=================
+-->
+
+<footer class="w-200 d-flex align-items justify-content-center flex-warp">
+  <p class="fs-5 px-3 pt-3">Synergy. &copy; Todos Los Derechos Reservados 2024</p>
+  <div id="iconos">
+    <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+    <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></i></a>
+    <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></i></a>
+  </div>
+  
+</footer>
+
+
+
+  <!--  bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- javascript-->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="resources/main.js"></script>
+
+    
+  </body>
+</html>
+
